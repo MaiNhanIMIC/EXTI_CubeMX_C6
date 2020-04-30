@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"exti_cubemx_c6\startup_stm32f103x6.o"
+"exti_cubemx_c6\main.o"
+"exti_cubemx_c6\stm32f1xx_it.o"
+"exti_cubemx_c6\stm32f1xx_hal_msp.o"
+"exti_cubemx_c6\stm32f1xx_hal_gpio_ex.o"
+"exti_cubemx_c6\stm32f1xx_hal_tim.o"
+"exti_cubemx_c6\stm32f1xx_hal_tim_ex.o"
+"exti_cubemx_c6\stm32f1xx_hal.o"
+"exti_cubemx_c6\stm32f1xx_hal_rcc.o"
+"exti_cubemx_c6\stm32f1xx_hal_rcc_ex.o"
+"exti_cubemx_c6\stm32f1xx_hal_gpio.o"
+"exti_cubemx_c6\stm32f1xx_hal_dma.o"
+"exti_cubemx_c6\stm32f1xx_hal_cortex.o"
+"exti_cubemx_c6\stm32f1xx_hal_pwr.o"
+"exti_cubemx_c6\stm32f1xx_hal_flash.o"
+"exti_cubemx_c6\stm32f1xx_hal_flash_ex.o"
+"exti_cubemx_c6\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "EXTI_CubeMX_C6\EXTI_CubeMX_C6.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "EXTI_CubeMX_C6.map" -o EXTI_CubeMX_C6\EXTI_CubeMX_C6.axf
